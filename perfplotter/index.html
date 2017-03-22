@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <title>PerfPlotter: A Tool for Performance Analysis of Java Programs</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <!--<link rel="shortcut icon" type="image/jpg" href="../img/favicon.jpg"/>-->
+
+    <!-- CSS
+    ================================================== -->       
+    <!-- Bootstrap css file-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font awesome css file-->
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <!-- Superslide css file-->
+    <link rel="stylesheet" href="../css/superslides.css">
+    <!-- Slick slider css file -->
+    <link href="../css/slick.css" rel="stylesheet"> 
+    <!-- smooth animate css file -->
+    <link rel="stylesheet" href="../css/animate.css">  
+    <!-- Elastic grid css file -->
+    <link rel="stylesheet" href="../css/elastic_grid.css"> 
+    <!-- Circle counter cdn css file -->
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/css/jquery.circliful.css'>    
+    <!-- Default Theme css file -->
+    <link id="orginal" href="../css/themes/default-theme.css" rel="stylesheet">
+    <!-- Main structure css file -->
+    <link href="../style.css" rel="stylesheet">
+   
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body> 
+    <!-- BEGAIN PRELOADER -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+    <!-- END PRELOADER -->
+
+    <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+    <!-- END SCROLL TOP BUTTON -->
+
+    <!--=========== BEGIN HEADER SECTION ================-->
+    <header id="header">
+      <!-- BEGIN MENU -->
+      <div class="menu_area">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> 
+          <div class="container">
+          <div class="navbar-header">
+            <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <!-- LOGO -->
+
+            <!-- TEXT BASED LOGO -->
+            <a class="navbar-brand" href="#">Perf<span>Plotter</span></a>
+            
+            <!-- IMG BASED LOGO  -->
+            <!--  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a> --> 
+            
+                   
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
+              <li><a href="#about">About</a></li>
+              <li><a href="#works">Requirements</a></li> 
+              <li><a href="#service">Downloads</a></li> 
+              <li><a href="#contact">Results</a></li>
+            </ul>           
+          </div><!--/.nav-collapse -->
+          </div>     
+        </nav>  
+      </div>
+      <!-- END MENU -->
+
+      <!-- BEGIN SLIDER AREA-->
+      <div class="slider_area">
+        <!-- BEGIN SLIDER-->          
+        <div id="slides">
+          <ul class="slides-container">
+			
+			<li>
+              <!-- THIRD SLIDE OVERLAY -->
+              <div class="slider_overlay"></div> 
+              <!-- THIRD SLIDE MAIN IMAGE -->
+              <!--<img src="img/full-slider/full-slide1.jpg" alt="img">-->
+              <!-- THIRD SLIDE CAPTION-->
+              <div class="slider_caption">
+                <div class="col-lg-12 col-md-12">
+                  <!-- BEGAIN SINGLE SERVICE -->
+                    <div class="service_iconarea">
+                      <span class="fa fa-bar-chart service_icon"></span>
+                    </div>
+                </div>
+				<h2>A tool for performance analysis of Java Programs</h2>				
+              </div>
+            </li>
+			
+          </ul>
+               
+        </div>
+        <!-- END SLIDER-->          
+      </div>
+      <!-- END SLIDER AREA -->
+    </header>
+    <!--=========== End HEADER SECTION ================--> 
+
+
+    <!--=========== BEGIN ABOUT SECTION ================-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="about_area">
+			
+              <!-- START ABOUT HEADING -->
+              <div class="heading">
+                <h2 class="wow fadeInLeftBig">About</h2>
+				  <p>PerfPlotter is a tool for performance analysis of Java Programs. It applies several heuristics to guide symbolic execution for exploring a subset of representative program paths. It can generate less complete but still meaningful performance distributions and expose the performance of interest such as best-/worst-case execution times with high coverage. A paper about this tool, titled "Generating Performance Distributions via Probabilistic Symbolic Execution", has been accepted to <a href="http://2016.icse.cs.txstate.edu/">ICSE 2016</a>. Please send bug reports, comments, or questions to <a href="../">Bihuan Chen</a>.</p>
+              </div>
+			  
+            </div>
+          </div>
+        </div>       
+      </div>
+    </section>
+    <!--=========== END ABOUT SECTION ================-->
+
+    <!--=========== BEGAIN PUBLICATIONS SECTION ================-->
+    <section id="works">
+      <!-- BEGAIN FORTFOLIO WORSK SECTION -->
+      <div class="row">
+        <div class="portfolio_area">
+          <!-- BEGAIN PORTFOLIO HEADER -->
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+             <div class="container">
+                <div class="heading">
+                  <h2 class="wow fadeInLeftBig">Requirements</h2>
+				  <p>
+				    PerfPlotter has been currently tested on Linux systems with:
+					<ul>
+					<li style="margin-top:5px;margin-bottom:5px"><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">Java Development Kit (JDK) 1.7</a></li>
+					<li style="margin-bottom:5px"><a href="https://www.math.ucdavis.edu/~latte/">LattE: a model counter for integer constraints</a></li>
+					<li style="margin-bottom:5px"><a href="http://pan.cin.ufpe.br/coral/QCORAL.html">qQORAL: a model counter for float-point constraints</a></li>
+					<li style="margin-bottom:5px"><a href="http://redis.io/">redis: a key-value cache and store</a></li>
+					</ul>
+				  </p>
+                </div>
+			  </div>
+            </div>
+          </div>
+          <!-- END PORTFOLIO HEADER -->
+        </div>         
+      </div>      
+      <!-- END FORTFOLIO WORSK SECTION -->
+    </section>
+    <!--=========== END PUBLICATIONS SECTION ================-->
+
+
+    <!--=========== BEGIN SOFTWARE SECTION ================-->
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <!-- BEGAIN SERVICE HEADING -->
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Downloads</h2>
+			  <p>
+			    PerfPlotter is implemented using the <a href="http://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-symbc">Symbolic PathFinder</a> and its <a href="https://code.google.com/p/probsym/">probabilistic symbolic execution extension</a>:
+				<ul>
+				<li style="margin-top:5px;margin-bottom:5px">Download <a href="http://babelfish.arc.nasa.gov/hg/jpf/jpf-core">Java PathFinder core (jpf-core)</a> from the JPF repository.</li>
+				<li style="margin-bottom:5px">Download <a href="http://babelfish.arc.nasa.gov/hg/jpf/jpf-symbc">Symbolic PathFinder (jpf-symbc)</a> from the JPF repository.</li>
+				<li style="margin-bottom:5px">Download <a href="resource/jpf-perfplotter.zip">PerfPlotter (jpf-perfplotter)</a> together with all the software artifacts used in our experiments.</li>
+				</ul>
+			  </p>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </section>
+    <!--=========== END SOFTWARE SECTION ================-->
+
+    <!--=========== BEGAIN CONTACT SECTION ================-->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+		  <div class="col-lg-12 col-md-12 col-sm-12">
+            <!-- START CONTACT HEADING -->
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Results</h2>
+			  <p>
+			    The following software artifacts are used in the experiments we conducted to evaluate our proposed framework. 
+				All the <a href="resource/experimental-data.zip">experimental data</a> can be download. 
+				Here we will further present some histograms that are not shown in our paper. 
+				Note that the rectangles in these histograms are almost invisible due to the low probability of paths.
+			
+				<h3>Quick Sort</h3>
+				<p>
+				This program performs the quick sort on an array of size n. 
+				It contains n! feasible paths, and there is only one path that leads to the worst-case time complexity with n(n-1)/2 comparisons. 
+				The performance of this program depends on the choice of pivot, and we selected the middle element as the pivot. 
+				We analysed a version for n = 7 with 5,040 paths (the number is reported by our exhaustive symbolic execution engine).<br>
+				<img alt="" src="resource/quicksort4full.jpg" width="370"> <img alt="" src="resource/quicksort4partial.jpg" width="370"><br>
+				We also analysed a version of Quick Sort for n = 8. The exhaustive symbolic execution approach ran out of memory, while PerfPlotter produced a meaningful distribution.<br>
+				<img alt="" src="resource/qs8partial.jpg" width="370">
+				</p>
+					
+				<h3>Single Loops</h3>
+				<p>
+				This program contains two single loops executed in sequence.
+				The iterations of each loop depend on an input variable.We limited the two input variables to [1, 100].
+				This program contains a total of 10,000 paths. <br>
+				<img alt="" src="resource/singleloops1full.jpg" width="370"> <img alt="" src="resource/singleloops2full.jpg" width="370">
+				</p>
+					
+				<h3>Nested Loop</h3>
+				<p>
+				This program contains a nested loop. 
+				The iterations of both the inner loop and outer loops depend on the input variables. 
+				We limited the two input variables to [1, 30], which leads to a total of 900 paths. <br>
+				<img alt="" src="resource/nestedloop1full.jpg" width="370"> <img alt="" src="resource/nestedloop2full.jpg" width="370">
+				</p>
+					
+				<h3>TreeMap</h3>
+				<p>
+				This program is the red-black tree implementation in the Java library.
+				We analysed the performance of a sequence of 5 calls to put and remove methods.
+				The program has 0.6K lines of code with 3,840 paths.<br>
+				<img alt="" src="resource/treemap7full.jpg" width="370"> <img alt="" src="resource/treemap7partial.jpg" width="370">
+				</p>
+				
+				<h3>Apollo</h3>
+				<p>
+				Apollo Lunar Autopilot is a Java program automatically translated from a Simulink model.
+				The model is available from MathWorks. 
+				The program decides the transition between fire and coast states and computes which reaction jets to fire.
+				It makes use of complex math functions such as Math.sqrt. 
+				The program contains 2.6K lines of Java code with 54 classes and 2,100 paths. <br>
+				<img alt="" src="resource/apollo6full.jpg" width="370"> <img alt="" src="resource/apollo6partial.jpg" width="370">
+				</p>
+				
+				<h3>CDx</h3>
+				<p>
+				The CDx system is a simulator for aircraft collision detection.
+				The Detector module detects collisions according to the current and next positions of the aircrafts, which has 3.2K lines of code.
+				We analysed this module for 10 aircrafts, which leads to a total of 2,476 paths.<br>
+				<img alt="" src="resource/cdx7full.jpg" width="370"> <img alt="" src="resource/cdx7partial.jpg" width="370">
+				</p>
+				
+				<h3>TSAFE</h3>
+				<p>
+				Tactical Separation Assisted Flight Environment is designed by NASA and FAA to predict flight conflicts and alert air traffic controllers.
+				We analsed the Conformance Monitor module, which checks if a flight is conforming to the planned route and assigns or synthesizes a trajectory. 
+				This module has 4.0K lines of code with 1,289 paths.<br>
+				<img alt="" src="resource/tsafe7full.jpg" width="370"> <img alt="" src="resource/tsafe7partial.jpg" width="370">
+				</p>
+				
+			  </p>
+            </div>
+          </div>
+        </div>
+      </div>             
+    </section>
+    <!--=========== END CONTACT SECTION ================-->
+
+     <!--=========== BEGAIN FOOTER ================-->
+     <footer id="footer">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-6 col-md-6 col-sm-6">
+             <div class="footer_left">
+				<!--=========== Designed By WpFreeware Team ================-->
+               <p>&copy; 2016 All Rights Reserved. Designed by <a href="http://www.wpfreeware.com">WpFreeware</a>.</p>
+			   <!--=========== Designed By WpFreeware Team ================-->
+             </div>
+           </div>
+           <div class="col-lg-6 col-md-6 col-sm-6">
+             <div class="footer_right">
+               <ul class="social_nav">
+                 <p>Last updated: Jan. 7, 2016</p>
+               </ul>
+             </div>
+           </div>
+         </div>
+       </div>
+      </footer>
+      <!--=========== END FOOTER ================-->
+
+     <!-- Javascript Files
+     ================================================== -->
+  
+     <!-- initialize jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Google map -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="../js/jquery.ui.map.js"></script>
+     <!-- For smooth animatin  -->
+    <script src="../js/wow.min.js"></script> 
+    <!-- Bootstrap js -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- superslides slider -->
+    <script src="../js/jquery.superslides.min.js" type="text/javascript"></script>
+    <!-- slick slider -->
+    <script src="../js/slick.min.js"></script>    
+    <!-- for circle counter -->
+    <script src='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/js/jquery.circliful.min.js'></script>
+    <!-- for portfolio filter gallery -->
+    <script src="../js/modernizr.custom.js"></script>
+    <script src="../js/classie.js"></script>
+    <script src="../js/elastic_grid.min.js"></script>
+    <script src="../js/portfolio_slider.js"></script>
+
+    <!-- Custom js-->
+    <script src="../js/custom.js"></script>
+  </body>
+</html>
