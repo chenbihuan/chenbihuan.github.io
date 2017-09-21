@@ -709,17 +709,21 @@ div[data-dimension] {
 /*--------------------*/
 /* TEAM SECTION */
 /*--------------------*/
-
+  
 #team{
+	background: none repeat scroll 0 0 #f8f8f8;
 	float: left;
 	display: inline;
 	width: 100%;
-	padding:80px 0px; 
+	padding: 80px 0px; 
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
 }
 .team_area{
 	float: left;
 	display: inline;
 	width: 100%;
+	margin-bottom: 30px;;
 }
 .team_slider{
 	float: left;
@@ -734,7 +738,7 @@ div[data-dimension] {
   border-radius: 5px;
   display: inline;
   float: left;
-  padding: 25px 15px;
+  padding: 10px 10px;
   text-align: center;
   width: 100%;
 }
@@ -745,27 +749,30 @@ div[data-dimension] {
 }
 .team_img > img {
   border-radius: 100%;
-  height: 150px;
-  margin: 0 auto 15px;
-  width: 150px;
+  height: 125px;
+  margin: 0 auto 10px;
+  width: 125px;
 }
 .single_team h5 {
   color: #555;
   font-weight: bold;
   margin-bottom: 0;
   margin-top: 18px;
-  text-transform: uppercase;
-  font-size: 17px;
+  font-size: 16px;
 }
 .single_team span {
   display: inline-block;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
+}
+.single_team advisor {
+  display: inline-block;
   margin-bottom: 10px;
-  text-transform: uppercase;
+  font-size: 14px;
 }
 .single_team p {
-  line-height: 26px;
+  font-size: 12px;
+  line-height: 18px;
 }
 .team_social{
 	float: left;
