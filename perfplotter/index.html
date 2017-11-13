@@ -30,16 +30,16 @@
     <!-- Elastic grid css file -->
     <link rel="stylesheet" href="../css/elastic_grid.css"> 
     <!-- Circle counter cdn css file -->
-    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/css/jquery.circliful.css'>    
+    <link rel='stylesheet prefetch' href='../css/jquery.circliful.css'>    
     <!-- Default Theme css file -->
     <link id="orginal" href="../css/themes/default-theme.css" rel="stylesheet">
     <!-- Main structure css file -->
     <link href="../style.css" rel="stylesheet">
    
     <!-- Google fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='../css/opensans.css' rel='stylesheet'>
+    <link href='../css/varela.css' rel='stylesheet'>
+    <link href='../css/montserrat.css' rel='stylesheet'>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -87,7 +87,7 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
               <li><a href="#about">About</a></li>
-              <li><a href="#works">Requirements</a></li> 
+              <li><a href="#pricing">Requirements</a></li> 
               <li><a href="#service">Downloads</a></li> 
               <li><a href="#contact">Results</a></li>
             </ul>           
@@ -150,37 +150,27 @@
     </section>
     <!--=========== END ABOUT SECTION ================-->
 
-    <!--=========== BEGAIN PUBLICATIONS SECTION ================-->
-    <section id="works">
-      <!-- BEGAIN FORTFOLIO WORSK SECTION -->
-      <div class="row">
-        <div class="portfolio_area">
-          <!-- BEGAIN PORTFOLIO HEADER -->
-          <div class="row">
-            <div class="col-lg-12 col-md-12">
-             <div class="container">
-                <div class="heading">
-                  <h2 class="wow fadeInLeftBig">Requirements</h2>
-				  <p>
-				    PerfPlotter has been currently tested on Linux systems with:
-					<ul>
-					<li style="margin-top:5px;margin-bottom:5px"><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">Java Development Kit (JDK) 1.7</a></li>
-					<li style="margin-bottom:5px"><a href="https://www.math.ucdavis.edu/~latte/">LattE: a model counter for integer constraints</a></li>
-					<li style="margin-bottom:5px"><a href="http://pan.cin.ufpe.br/coral/QCORAL.html">qQORAL: a model counter for float-point constraints</a></li>
-					<li style="margin-bottom:5px"><a href="http://redis.io/">redis: a key-value cache and store</a></li>
-					</ul>
-				  </p>
-                </div>
-			  </div>
-            </div>
+    <!--=========== BEGAIN RESEARCH SECTION ================-->
+    <section id="pricing">
+      <div class="container">
+        <div class="row col-lg-12 col-md-12">
+          <!-- START ABOUT HEADING -->
+          <div class="heading">
+            <h2 class="wow fadeInLeftBig">Requirements</h2>
+			<p>
+			PerfPlotter has been currently tested on Linux systems with:
+			<ul>
+			<li style="margin-top:5px;margin-bottom:5px"><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html">Java Development Kit (JDK) 1.7</a></li>
+			<li style="margin-bottom:5px"><a href="https://www.math.ucdavis.edu/~latte/">LattE: a model counter for integer constraints</a></li>
+			<li style="margin-bottom:5px"><a href="http://pan.cin.ufpe.br/coral/QCORAL.html">qQORAL: a model counter for float-point constraints</a></li>
+			<li style="margin-bottom:5px"><a href="http://redis.io/">redis: a key-value cache and store</a></li>
+			</ul>
+			</p>	            
           </div>
-          <!-- END PORTFOLIO HEADER -->
-        </div>         
-      </div>      
-      <!-- END FORTFOLIO WORSK SECTION -->
+        </div>
+      </div>
     </section>
-    <!--=========== END PUBLICATIONS SECTION ================-->
-
+    <!--=========== END RESEARCH SECTION ================-->
 
     <!--=========== BEGIN SOFTWARE SECTION ================-->
     <section id="service">
@@ -315,9 +305,9 @@
      ================================================== -->
   
      <!-- initialize jQuery Library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
     <!-- Google map -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="../js/js.js"></script>
     <script src="../js/jquery.ui.map.js"></script>
      <!-- For smooth animatin  -->
     <script src="../js/wow.min.js"></script> 
@@ -328,12 +318,12 @@
     <!-- slick slider -->
     <script src="../js/slick.min.js"></script>    
     <!-- for circle counter -->
-    <script src='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/js/jquery.circliful.min.js'></script>
+    <script src='../js/jquery.circliful.min.js'></script>
     <!-- for portfolio filter gallery -->
     <script src="../js/modernizr.custom.js"></script>
     <script src="../js/classie.js"></script>
     <script src="../js/elastic_grid.min.js"></script>
-    <script src="../js/portfolio_slider.js"></script>
+    <!--<script src="../js/portfolio_slider.js"></script>-->
 
     <!-- Custom js-->
     <script src="../js/custom.js"></script>
