@@ -924,15 +924,16 @@ div[data-dimension] {
 .blog_img > img {
   height: 100%;
   width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .single_post h3 {
   float: left;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 18px;
   margin-bottom: 5px;
-  margin-top: 15px;
-  text-transform: uppercase;
+  margin-top: 5px;
   width: 100%;
+  text-align: center;
 }
 .post_commentbox{
 	float: left;	
