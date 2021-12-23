@@ -41,7 +41,6 @@ body {
 ul{
   padding: 0;
   margin: 0;
-  list-style: none;
 }
 
 a{ 
@@ -416,7 +415,6 @@ img{
 .heading ul{
   padding: 0;
   margin: 0;
-  list-style-type: square;
 }
 .about_content{
 	float: left;
